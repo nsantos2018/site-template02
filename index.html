@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Template 01</title>
+
+    <!-- getbootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- swiffy slider 1.6 CSS -->    
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="fully__page" class="fully__page">
+
+    <!-- header section starts      -->
+    <header class="header__main">
+        <nav class="header__nav">
+            <div class="header__menu container-fluid">
+
+                <div class="header__logo">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="img/logo-site-back.png">
+                    </a>
+                </div><!-- header__logo -->                
+
+                <div class="menu" id="">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="menu__nav">
+                        <div class="menu__label">Menu</div>
+                        <ul  class="menu__list">
+                            <li class="menu-item"><a href="#">Home</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="#">A Escola</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Nossa História</a></li>
+                                <li class="menu-item"><a href="#">Estrutura</a></li>
+                                <li class="menu-item"><a href="#">Objetivo</a></li>
+                                <li class="menu-item"><a href="#">Metodologia</a></li>
+                                <li class="menu-item"><a href="#">Equipe</a></li>
+                                <!-- Level 3 Menu -->
+                                <li class="menu-item menu-item-has-children"><a href="#">Level 3 Menu</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="#">Nossa História</a></li>
+                                        <li class="menu-item"><a href="#">Estrutura</a></li>
+                                        <li class="menu-item"><a href="#">Objetivo</a></li>
+                                        <li class="menu-item"><a href="#">Metodologia</a></li>
+                                    </ul>        
+                                </li>
+                            </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children" ><a href="#">Ensino e Serviços</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Ensino Infantil</a></li>
+                                <li class="menu-item"><a href="#">Ensino Fundamental I e II</a></li>
+                                <li class="menu-item"><a href="#">Ensino Médio</a></li>
+                            </ul>
+                            </li>
+                            <li class="menu-item"><a href="#">Contato</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="#">MATRÍCULAS</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Matrículas Novatos</a></li>
+                                <li class="menu-item"><a href="#">Matrículas Alunos Veteranos</a></li>
+                            </ul>
+                            </li>
+                            <li class="menu-item"><a href="#">MATRÍCULAS</a></li>
+                            <li class="menu-item"><a href="#">Lista de Materiais</a></li>
+                            <li class="menu-item"><a target="_blank" href="#">Área do Aluno</a></li>                            
+                        </ul>
+                    </div><!-- menu__nav -->
+                </div><!-- navbar-collapse -->
+            </div><!-- container-fluid -->
+        </nav>        
+    </header>
+    <!-- header section ends-->
+    
+    <main>
+
+        <section class="sec__slider">            
+
+            <div class="swiffy-slider slider-item-ratio slider-item-ratio-21x9 slider-nav-autoplay slider-nav-autopause" data-slider-nav-autoplay-interval="15000">
+                <!-- image sliders -->
+                <ul class="slider-container">
+                    <li>
+                        <img src="img/slider-1.jpg" loading="lazy" alt="...">
+                        <div class="card-img-overlay d-flex align-items-start align-items-md-center justify-content-center flex-column">
+                            <h2 class="slider__title slider__title--white card-title h1 d-block d-md-inline-block">The Aston Martin DB5</h2>
+                            <p class="slider__text slider__text--white card-text lead col-md-8 col-lg-6">The Aston Martin DB5 is a British luxury grand tourer (GT) that was made by Aston Martin and designed by the Italian coachbuilder Carrozzeria Touring Superleggera. </p>
+                        </div>
+                    </li>
+                    <li><img src="img/slider-2.jpg" loading="lazy" alt="..."></li>
+                    <li><img src="img/slider-3.jpg" loading="lazy" alt="..."></li>                    
+                </ul><!-- slider-container -->
+
+                <!-- button navigate -->
+                <button type="button" class="slider-nav" aria-label="Go left"></button>
+                <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+
+                <!-- Slider indicators -->
+                <div class="slider-indicators d-none d-md-flex">
+                    <button class="active" aria-label="Go to slide"></button>
+                    <button aria-label="Go to slide" class=""></button>
+                    <button aria-label="Go to slide" class=""></button>                    
+                </div> <!-- slider-indicators -->
+                
+            </div><!-- swiffy-slider -->
+
+        </section>  
+        
+        <section class="sec__hero pt-5 pb-5">
+            <div class="hero__title wrapper__title text-light text-center p-2 mb-5">
+                <h1>Section hero</h1>
+            </div>            
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="hero__grid col-lg-4 col-sm-12">
+                        <div class="hero__card hero__card--border bg-light pt-3 pb-4">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+                            <div class="hero__form">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="InputEmail1" class="form-label">Email</label>
+                                        <input type="email" class="form-control hero__form--border border border-primary" id="InputEmail1" aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="InputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control hero__form--border border border-primary" id="InputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input border border-primary" id="Check1">
+                                        <label class="form-check-label" for="Check1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Send <i class="bi bi-send"></i></button>
+                                </form>
+                            </div><!--hero__form-->
+
+
+                        </div><!--hero__card-->
+                    </div><!--hero__grid -->
+                    <div class="col-lg-8 col-sm-12">
+                        <div class="hero__content hero__content--padding text-light">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper scelerisque nisi sed vestibulum. In pulvinar consequat velit, at dapibus augue mollis at. Donec viverra sapien interdum commodo facilisis. Sed et mi mi. Vestibulum at massa quam. Mauris in tempus sem. Vivamus quis odio diam. Vestibulum fringilla leo eu laoreet finibus. Aenean sit amet ex ut ex viverra pharetra. Suspendisse a pulvinar nisi. Vivamus at quam neque. Etiam nec tortor iaculis, dapibus urna vel, convallis nibh. Vestibulum iaculis urna vel est finibus rhoncus.
+
+Praesent tellus lorem, venenatis fringilla facilisis sit amet, tempor eu augue. Donec accumsan sapien id turpis iaculis luctus. Etiam condimentum, est sit amet consequat mollis, lectus nulla varius tortor, luctus accumsan nibh diam quis est. Morbi luctus varius dui vel posuere. Suspendisse risus dui, feugiat pellentesque tincidunt ac, vestibulum a nibh. Proin fringilla, neque et volutpat efficitur, ex mauris interdum neque, ac commodo arcu nisl quis leo. Morbi semper diam in eleifend imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce laoreet felis mauris, ac porta dolor lacinia sit amet.
+                        </div>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+
+        </section>  
+        
+        <section class="sec__about pt-3 pb-5">
+           
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="about__grid col-lg-6 col-sm-12">
+                        <div class="about__card wrapper__title pt-5 pb-5">
+                            <h1>Section About</h1>
+                            <p class="mt-5">Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi semper scelerisque nisi sed vestibulum. 
+                                In pulvinar consequat velit, at dapibus augue mollis at. 
+                                Donec viverra sapien interdum commodo facilisis. Sed et mi mi. Vestibulum at massa quam. 
+                                Mauris in tempus sem. Vivamus quis odio diam. Vestibulum fringilla leo eu laoreet finibus. 
+                                Aenean sit amet ex ut ex viverra pharetra. Suspendisse a pulvinar nisi. Vivamus at quam neque. 
+                                Etiam nec tortor iaculis, dapibus urna vel, convallis nibh. Vestibulum iaculis urna vel est finibus rhoncus.
+                                Praesent tellus lorem, venenatis fringilla facilisis sit amet, tempor eu augue.
+                            </p>                            
+
+                        </div><!--about__card-->
+                    </div><!--about__grid -->
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="about__content">
+                            <div class="about__img">
+                                <img class="img-fluid" src="img/about.jpg">
+                            </div><!--about__img-->
+                        </div>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+        </section>  
+
+        <section class="sec__service pt-5 pb-5">            
+
+            <div class="container">
+                <div class="service__header wrapper__title">
+                    <h1>Services</h1>
+                    <div class="divider"></div>
+                </div>
+        
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="service__text text-center pt-3 pb-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tincidunt leo a commodo. Suspendisse feugiat lacus sit amet augue vulputate, quis semper neque pellentesque.</p>
+                    </div>
+                </div><!-- col 12-->
+        
+                <div class="row service__list">                               
+        
+                    <div class="service__unity col-lg-4 col-sm-12 mb-4">
+                    <div class="service__card">
+                        <a href="#">
+                        <img class="service__img img-fluid" src="img/service-1.jpg" alt="">
+                        </a>
+                        <div class="service__content">
+                            <div class="service__title"> 
+                                <h2>
+                                    <a href="#">
+                                        Enim ipsam voluptatem quia voluptas			            	
+                                    </a>
+                                </h2>
+                            </div>
+                                
+                            <div class="service__desc">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. 
+                                </p>
+                            </div>
+                            <div class="service__link">
+                                <a href="" class="btn btn-sm btn-outline-primary border__radius--2">read more <i class="bi bi-chevron-right"></i></a>
+                            </div>
+                        </div><!-- service__content -->
+                    </div><!-- service__card -->
+                    </div><!-- service__unity -->
+        
+                    <div class="service__unity col-lg-4 col-sm-12 mb-4">
+                        <div class="service__card">
+                            <a href="#">
+                            <img class="service__img img-fluid" src="img/service-2.jpg" alt="">
+                            </a>
+                            <div class="service__content">
+                                <div class="service__title"> 
+                                    <h2>
+                                        <a href="#">
+                                            Enim ipsam voluptatem quia voluptas			            	
+                                        </a>
+                                    </h2>
+                                </div>
+                                    
+                                <div class="service__desc">
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                    ut labore et dolore magna aliqua. 
+                                    </p>
+                                </div>
+                                <div class="service__link">
+                                    <a href="" class="btn btn-sm btn-outline-primary border__radius--2">read more <i class="bi bi-chevron-right"></i></a>
+                                </div>
+                            </div><!-- service__content -->
+                        </div><!-- service__card -->
+                        </div><!-- service__unity -->
+
+                        <div class="service__unity col-lg-4 col-sm-12 mb-4">
+                            <div class="service__card">
+                                <a href="#">
+                                <img class="service__img img-fluid" src="img/service-3.jpg" alt="">
+                                </a>
+                                <div class="service__content">
+                                    <div class="service__title"> 
+                                        <h2>
+                                            <a href="#">
+                                                Enim ipsam voluptatem quia voluptas			            	
+                                            </a>
+                                        </h2>
+                                    </div>
+                                        
+                                    <div class="service__desc">
+                                        <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                        ut labore et dolore magna aliqua. 
+                                        </p>
+                                    </div>
+                                    <div class="service__link">
+                                        <a href="#" class="btn btn-sm btn-outline-primary border__radius--2">read more <i class="bi bi-chevron-right"></i></a>
+                                    </div>
+                                </div><!-- service__content -->
+                            </div><!-- service__card -->
+                            </div><!-- service__unity -->
+        
+                </div><!-- row service__list -->	
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="text-center pt-5 pb-5">
+                        <a href="#" class="btn btn-outline-primary width-btn border__radius--2">See all services <i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div><!-- col 12-->
+            </div>
+
+
+        </section>  
+
+        <section class="sec__product">
+            
+            <div class="container">
+                <div class="product__header wrapper__title mb-5">
+                    <h1>Section Product</h1>
+                    <div class="divider"></div>
+                </div>
+
+            <div class="row">
+
+            <div class="product__grid swiffy-slider slider-item-show3 slider-nav-dark slider-nav-outside-expand">
+                <ul class="product__list slider-container">
+
+                    <li class="product__unity">
+                        <div class="product__card">
+                            <figure class="product__img">
+                                <a href="#">
+                                    <img src="img/shoes/shoe1.webp" class="img-fluid" loading="lazy" alt="...">
+                                </a>
+                            </figure>
+                            <div class="product__content pt-2">
+                                
+                                <h3 class="product__title">
+                                    <a href="#"> LeBron 18</a>
+                                </h3>
+                                <div class="product__price py-2">$200</div>                               
+
+                                <div class="product__info">Basketball Shoes</div>
+
+                                <div class="product__btn btn-group" role="group" aria-label="Basic outlined example">
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-cart-plus"></i></span> 
+                                        <span class="d-block">Add To Cart</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-eye"></i></span> 
+                                        <span class="d-block">See details</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-bag-heart"></i></span>
+                                        <span class="d-block">Favorite</span>
+                                    </button>
+                                </div><!-- product__btn -->
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="product__unity">
+                        <div class="product__card">
+                            <figure class="product__img">
+                                <a href="#">
+                                    <img src="img/shoes/shoe2.webp" class="img-fluid" loading="lazy" alt="...">
+                                </a>
+                            </figure>
+                            <div class="product__content pt-2">
+                                
+                                <h3 class="product__title">
+                                    <a href="#"> LeBron 18</a>
+                                </h3>
+                                <div class="product__price py-2">$200</div>                               
+
+                                <div class="product__info">Basketball Shoes</div>
+
+                                <div class="product__btn btn-group" role="group" aria-label="Basic outlined example">
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-cart-plus"></i></span> 
+                                        <span class="d-block">Add To Cart</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-eye"></i></span> 
+                                        <span class="d-block">See details</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-bag-heart"></i></span>
+                                        <span class="d-block">Favorite</span>
+                                    </button>
+                                </div><!-- product__btn -->
+
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="product__unity">
+                        <div class="product__card">
+                            <figure class="product__img">
+                                <a href="#">
+                                    <img src="img/shoes/shoe3.webp" class="img-fluid" loading="lazy" alt="...">
+                                </a>
+                            </figure>
+                            <div class="product__content pt-2">
+                                
+                                <h3 class="product__title">
+                                    <a href="#"> LeBron 18</a>
+                                </h3>
+                                <div class="product__price py-2">$200</div>                               
+
+                                <div class="product__info">Basketball Shoes</div>
+
+                                <div class="product__btn btn-group" role="group" aria-label="Basic outlined example">
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-cart-plus"></i></span> 
+                                        <span class="d-block">Add To Cart</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-eye"></i></span> 
+                                        <span class="d-block">See details</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-bag-heart"></i></span>
+                                        <span class="d-block">Favorite</span>
+                                    </button>
+                                </div><!-- product__btn -->
+
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="product__unity">
+                        <div class="product__card">
+                            <figure class="product__img">
+                                <a href="#">
+                                    <img src="img/shoes/shoe4.webp" class="img-fluid" loading="lazy" alt="...">
+                                </a>
+                            </figure>
+                            <div class="product__content pt-2">
+                                
+                                <h3 class="product__title">
+                                    <a href="#"> LeBron 18</a>
+                                </h3>
+                                <div class="product__price py-2">$200</div>                               
+
+                                <div class="product__info">Basketball Shoes</div>
+
+                                <div class="product__btn btn-group" role="group" aria-label="Basic outlined example">
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-cart-plus"></i></span> 
+                                        <span class="d-block">Add To Cart</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-eye"></i></span> 
+                                        <span class="d-block">See details</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-bag-heart"></i></span>
+                                        <span class="d-block">Favorite</span>
+                                    </button>
+                                </div><!-- product__btn -->
+
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="product__unity">
+                        <div class="product__card">
+                            <figure class="product__img">
+                                <a href="#">
+                                    <img src="img/shoes/shoe5.webp" class="img-fluid" loading="lazy" alt="...">
+                                </a>
+                            </figure>
+                            <div class="product__content pt-2">
+                                
+                                <h3 class="product__title">
+                                    <a href="#"> LeBron 18</a>
+                                </h3>
+                                <div class="product__price py-2">$200</div>                               
+
+                                <div class="product__info">Basketball Shoes</div>
+
+                                <div class="product__btn btn-group" role="group" aria-label="Basic outlined example">
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-cart-plus"></i></span> 
+                                        <span class="d-block">Add To Cart</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-eye"></i></span> 
+                                        <span class="d-block">See details</span>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        <span class="d-block"><i class="bi bi-bag-heart"></i></span>
+                                        <span class="d-block">Favorite</span>
+                                    </button>
+                                </div><!-- product__btn -->
+
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            
+                <button type="button" class="slider-nav" aria-label="Go left"></button>
+                <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+            </div><!-- swiffy-slider -->
+            </div><!-- row -->
+            </div><!-- container -->
+
+        </section>  
+
+        <section class="sec__category">
+            
+            <div class="container">
+                <div class="category__header wrapper__title mb-5">
+                    <h1>Section Product Category</h1>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="row">
+                <div class="category__grid swiffy-slider slider-item-show4 slider-nav-dark slider-nav-outside-expand ">
+                    
+                    <ul class="category__list slider-container py-4" id="slider2">                  
+
+                        <li class="category__unity">
+                            <div class="category__card shadow h-100">
+                                <figure class="category__img">
+                                    <a href="#">
+                                        <img src="img/shoes/shoe6.webp" class="img-fluid" loading="lazy" alt="...">
+                                    </a>
+                                </figure>
+                                <div class="category__content">                                                                       
+                                    <p class="category__title">
+                                        <a href="#">Basketball Shoes</a>
+                                    </p>                                                                     
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="category__unity">
+                            <div class="category__card shadow h-100">
+                                <figure class="category__img">
+                                    <a href="#">
+                                        <img src="img/shoes/shoe6.webp" class="img-fluid" loading="lazy" alt="...">
+                                    </a>
+                                </figure>
+                                <div class="category__content">                                                                       
+                                    <p class="category__title">
+                                        <a href="#">Basketball Shoes</a>
+                                    </p>                                                                     
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="category__unity">
+                            <div class="category__card shadow h-100">
+                                <figure class="category__img">
+                                    <a href="#">
+                                        <img src="img/shoes/shoe6.webp" class="img-fluid" loading="lazy" alt="...">
+                                    </a>
+                                </figure>
+                                <div class="category__content">                                                                       
+                                    <p class="category__title">
+                                        <a href="#">Basketball Shoes</a>
+                                    </p>                                                                     
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="category__unity">
+                            <div class="category__card shadow h-100">
+                                <figure class="category__img">
+                                    <a href="#">
+                                        <img src="img/shoes/shoe6.webp" class="img-fluid" loading="lazy" alt="...">
+                                    </a>
+                                </figure>
+                                <div class="category__content">                                                                       
+                                    <p class="category__title">
+                                        <a href="#">Basketball Shoes</a>
+                                    </p>                                                                     
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="category__unity">
+                            <div class="category__card shadow h-100">
+                                <figure class="category__img">
+                                    <a href="#">
+                                        <img src="img/shoes/shoe6.webp" class="img-fluid" loading="lazy" alt="...">
+                                    </a>
+                                </figure>
+                                <div class="category__content">                                                                       
+                                    <p class="category__title">
+                                        <a href="#">Basketball Shoes</a>
+                                    </p>                                                                     
+                                </div>
+                            </div>
+                        </li>
+
+                        
+                        
+                    </ul>
+                
+                    <button type="button" class="slider-nav" aria-label="Go to previous"></button>
+                    <button type="button" class="slider-nav slider-nav-next" aria-label="Go to next"></button>
+                </div><!-- swiffy-slider -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </section>  
+
+        <section class="sec__news">
+            
+            <div class="container">
+                <div class="news__header wrapper__title mb-5">
+                    <h1>Section News</h1>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="news__list row">
+
+                    <article class="news__unity col-lg-4 col-sm-12">
+                        <div class="news__card">              
+                            <a href="#" class="news__img d-flex align-items-end" style="background-image: url('img/slider-1.jpg');">
+                                <div class="news__date text-center p-2">
+                                <span class="day">25</span>
+                                <span class="mos">jan</span>
+                                <span class="yr">2023</span>
+                                </div>
+                            </a>
+                            <div class="news__content bg-white">
+                                <h2 class="news__title">
+                                    <a href="#">
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+                                </h2>
+                                <div class="news__info">
+                                    <p>
+                                    consectetur adipiscing elit. Vivamus in viverra dolor, 
+                                    eget accumsan massa. Nulla scelerisque dignissim fringilla. 
+                                    Etiam sodales lacinia mi...
+                                    </p>	
+                                </div>			                
+                            </div><!-- news__contento -->
+                        </div><!-- news__card -->                        
+                    </article>
+
+                    <article class="news__unity col-lg-4 col-sm-12">
+                        <div class="news__card">              
+                            <a href="#" class="news__img d-flex align-items-end" style="background-image: url('img/slider-2.jpg');">
+                                <div class="news__date text-center p-2">
+                                <span class="day">24</span>
+                                <span class="mos">jan</span>
+                                <span class="yr">2023</span>
+                                </div>
+                            </a>
+                            <div class="news__content bg-white">
+                                <h2 class="news__title">
+                                    <a href="#">
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+                                </h2>
+                                <div class="news__info">
+                                    <p>
+                                    consectetur adipiscing elit. Vivamus in viverra dolor, 
+                                    eget accumsan massa. Nulla scelerisque dignissim fringilla. 
+                                    Etiam sodales lacinia mi...
+                                    </p>	
+                                </div>			                
+                            </div><!-- news__contento -->
+                        </div><!-- news__card -->                        
+                    </article>
+
+                    <article class="news__unity col-lg-4 col-sm-12">
+                        <div class="news__card">              
+                            <a href="#" class="news__img d-flex align-items-end" style="background-image: url('img/slider-3.jpg');">
+                                <div class="news__date text-center p-2">
+                                <span class="day">23</span>
+                                <span class="mos">jan</span>
+                                <span class="yr">2023</span>
+                                </div>
+                            </a>
+                            <div class="news__content bg-white">
+                                <h2 class="news__title">
+                                    <a href="#">
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+                                </h2>
+                                <div class="news__info">
+                                    <p>
+                                    consectetur adipiscing elit. Vivamus in viverra dolor, 
+                                    eget accumsan massa. Nulla scelerisque dignissim fringilla. 
+                                    Etiam sodales lacinia mi...
+                                    </p>	
+                                </div>			                
+                            </div><!-- news__contento -->
+                        </div><!-- news__card -->                        
+                    </article>
+
+                </div><!-- row -->
+
+                <div class="news__footer text-center">                    
+                    <a href="" class="btn btn-outline-primary">See more news <i class="bi bi-chevron-double-right"></i></a>                    
+                </div>
+
+            </div><!-- container -->
+        </section>  
+
+        <section class="sec__customer">
+          
+            <div class="container">
+                <div class="customer__header wrapper__title mb-5">
+                    <h1>Section Customer</h1>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="customer__text row text-center">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in viverra dolor, eget accumsan massa. 
+                        Nulla scelerisque dignissim fringilla. Etiam sodales lacinia mi, at vehicula felis tempor eget. In hac habitasse platea dictumst. 
+                        Vestibulum gravida diam nunc, a imperdiet leo pulvinar in. 
+                    </p>
+                </div><!-- row -->
+                
+                <div class="customer__grid row">
+                    <div class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x9 bg-white shadow-lg py-3 py-lg-4" data-slider-nav-autoplay-interval="10000">
+                        
+                        <div class="customer__list slider-container">
+                            
+                            <div class="customer__unity"><img class="customer__img img-fluid" src="img/brandlogos/DWLogoColor_sm.svg" loading="lazy" alt="..."></div>
+                            
+                            <div class="customer__unity"><img class="customer__img img-fluid" src="img/brandlogos/bootstrap-5.svg" loading="lazy" alt="..."></div>
+                           
+                            <div class="customer__unity"><img class="customer__img img-fluid" src="img/brandlogos/github-2.svg" loading="lazy" alt="..."></div>
+                           
+                            <div class="customer__unity"><img class="customer__img img-fluid" src="img/brandlogos/svelte-wordmark-1.svg" loading="lazy" alt="..."></div>
+                            
+                            <div class="customer__unity"><img class="customer__img img-fluid" src="img/brandlogos/meteor-5.svg" loading="lazy" alt="..."></div>
+                            
+                            <div class="customer__unity"><img class="customer__img img-fluid" src="img/brandlogos/nodejs-1.svg" loading="lazy" alt="..."></div>                            
+                            
+                        </div>
+                    
+                        <button type="button" class="slider-nav" aria-label="Go left"></button>
+                        <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+                    
+                    </div>
+                </div><!-- row -->
+            </div><!-- container -->
+            
+        </section>  
+
+        <section class="sec__partner">
+      
+            <div class="container">
+                <div class="customer__header wrapper__title mb-5">
+                    <h1>Section Partner</h1>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="partner__grid row">
+                    <div class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x9 bg-white shadow-lg py-3 py-lg-4" data-slider-nav-autoplay-interval="7000">
+                        
+                        <div class="partner__list slider-container">
+                            
+                            <div class="partner__unity"><img class="partner__img img-fluid" src="img/brandlogos/DWLogoColor_sm.svg" loading="lazy" alt="..."></div>
+                            
+                            <div class="partner__unity"><img class="partner__img img-fluid" src="img/brandlogos/bootstrap-5.svg" loading="lazy" alt="..."></div>
+                           
+                            <div class="partner__unity"><img class="partner__img img-fluid" src="img/brandlogos/github-2.svg" loading="lazy" alt="..."></div>
+                           
+                            <div class="partner__unity"><img class="partner__img img-fluid" src="img/brandlogos/svelte-wordmark-1.svg" loading="lazy" alt="..."></div>
+                            
+                            <div class="partner__unity"><img class="partner__img img-fluid" src="img/brandlogos/meteor-5.svg" loading="lazy" alt="..."></div>
+                            
+                            <div class="partner__unity"><img class="partner__img img-fluid" src="img/brandlogos/nodejs-1.svg" loading="lazy" alt="..."></div>                            
+                            
+                        </div>
+                    
+                        <button type="button" class="slider-nav" aria-label="Go left"></button>
+                        <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+                    
+                    </div>
+                </div><!-- row -->
+            </div><!-- container -->
+        </section>  
+
+        <section class="sec__team">           
+            <div class="container">
+                <div class="team__header wrapper__title mb-5">
+                    <h1>Section Team</h1>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="team__text row text-center">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in viverra dolor, eget accumsan massa. 
+                        Nulla scelerisque dignissim fringilla. Etiam sodales lacinia mi, at vehicula felis tempor eget. In hac habitasse platea dictumst. 
+                        Vestibulum gravida diam nunc, a imperdiet leo pulvinar in. 
+                    </p>
+                </div><!-- row -->
+                
+                <div class="team__grid row">
+
+                    <div class="swiffy-slider slider-item-show3 slider-item-reveal slider-nav-outside slider-nav-visible slider-indicators-outside slider-indicators-highlight  slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-last-visible" style="--swiffy-slider-nav-light:#808080;">						
+                        <ul class="team__list slider-container mt-5 mb-4">
+                                                            
+                            <li class="team__unity">
+                                <div class="team__card">
+                                    <div class="team__content text-center">  											
+                                        <img class="team__img img-fluid" src="img/team/team-4.jpg">	          
+                                        <div class="team__name bg-primary py-2 text-white">Full Name</div>
+                                        <div class="team__function bg-primary py-2 text-white bg-opacity-75">Scribbler</div>
+                                        <div class="team__networks py-2">
+                                            <div class="team__instagram">
+                                                <a href="#" target="_blank" title="access the Instagram de...">
+                                                    <i class="bi bi-instagram"></i> 
+                                                </a>                                            
+                                            </div>
+                                            <div class="team__linkedin">
+                                                <a href="#" target="_blank" title="access the Linkedin de...">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" target="_blank" title="email@server.com">
+                                                    <i class="bi bi-envelope-at"></i>
+                                                </a>
+                                            </div>
+                                        </div><!-- team__networks -->
+                                    </div>
+                                </div>					  				
+                            </li>	
+
+                            <li class="team__unity">
+                                <div class="team__card">
+                                    <div class="team__content text-center">  											
+                                        <img class="team__img img-fluid" src="img/team/team-2.jpg">	          
+                                        <div class="team__name bg-primary py-2 text-white">Full Name</div>
+                                        <div class="team__function bg-primary py-2 text-white bg-opacity-75">Scribbler</div>
+                                        <div class="team__networks py-2">
+                                            <div class="team__instagram">
+                                                <a href="#" target="_blank" title="access the Instagram de...">
+                                                    <i class="bi bi-instagram"></i> 
+                                                </a>                                            
+                                            </div>
+                                            <div class="team__linkedin">
+                                                <a href="#" target="_blank" title="access the Linkedin de...">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" target="_blank" title="email@server.com">
+                                                    <i class="bi bi-envelope-at"></i>
+                                                </a>
+                                            </div>
+                                        </div><!-- team__networks -->
+                                    </div>
+                                </div>					  				
+                            </li>	
+
+                            <li class="team__unity">
+                                <div class="team__card">
+                                    <div class="team__content text-center">  											
+                                        <img class="team__img img-fluid" src="img/team/team-3.jpg">	          
+                                        <div class="team__name bg-primary py-2 text-white">Full Name</div>
+                                        <div class="team__function bg-primary py-2 text-white bg-opacity-75">Scribbler</div>
+                                        <div class="team__networks py-2">
+                                            <div class="team__instagram">
+                                                <a href="#" target="_blank" title="access the Instagram de...">
+                                                    <i class="bi bi-instagram"></i> 
+                                                </a>                                            
+                                            </div>
+                                            <div class="team__linkedin">
+                                                <a href="#" target="_blank" title="access the Linkedin de...">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" target="_blank" title="email@server.com">
+                                                    <i class="bi bi-envelope-at"></i>
+                                                </a>
+                                            </div>
+                                        </div><!-- team__networks -->
+                                    </div>
+                                </div>					  				
+                            </li>	
+
+                            <li class="team__unity">
+                                <div class="team__card">
+                                    <div class="team__content text-center">  											
+                                        <img class="team__img img-fluid" src="img/team/team-1.jpg">	          
+                                        <div class="team__name bg-primary py-2 text-white">Full Name</div>
+                                        <div class="team__function bg-primary py-2 text-white bg-opacity-75">Scribbler</div>
+                                        <div class="team__networks py-2">
+                                            <div class="team__instagram">
+                                                <a href="#" target="_blank" title="access the Instagram de...">
+                                                    <i class="bi bi-instagram"></i> 
+                                                </a>                                            
+                                            </div>
+                                            <div class="team__linkedin">
+                                                <a href="#" target="_blank" title="access the Linkedin de...">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" target="_blank" title="email@server.com">
+                                                    <i class="bi bi-envelope-at"></i>
+                                                </a>
+                                            </div>
+                                        </div><!-- team__networks -->
+                                    </div>
+                                </div>					  				
+                            </li>
+                            
+                                                                                                                
+                        </ul>
+          
+                        <button type="button" class="slider-nav" aria-label="Go left"></button>
+                        <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>	
+          
+                        <div class="slider-indicators">
+                            <button aria-label="Go to slide" class=""></button>   
+                            <button aria-label="Go to slide" class=""></button>
+                            <button aria-label="Go to slide" class=""></button>                                          
+                            <button aria-label="Go to slide" class=""></button> 
+                        </div>						
+                </div><!-- close team grid -->
+
+
+
+                </div><!-- team__grid row -->
+            </div><!-- container -->
+        </section>  
+
+        <section class="sec__testimony">
+            
+            <div class="container">
+                <div class="testimony__header wrapper__title mb-5">
+                    <h1>Section Testimony</h1>
+                    <div class="divider"></div>
+                </div>
+                <div class="testimony__grid row">
+
+                    <div class="swiffy-slider slider-nav-dark slider-nav-outside slider-nav-animation slider-indicators-dark slider-indicators-outside slider-indicators-highlight  slider-nav-animation-fadein">
+                        <ul class="testimony__list slider-container">
+                           
+                            <li class="testimony__unity slide-visible">
+                                <div class="card rounded-0 h-100">
+                                    <div class="row g-0 h-100">
+                                        <div class="col-md-3 col-xl-3">                                            
+                                            <img src="img/testimony/img-testimony-1.webp" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover" alt="...">
+                                            <img src="img/testimony/img-testimony-1.webp" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover" alt="...">
+                                        </div>
+                                        <div class="col-md-9 col-xl-9 d-flex align-items-center p-2 p-md-3 p-xl-5">
+                                            <div class="card-body p-1 p-md-3 p-xl-9">
+                                                <p class="lead">Sara</p>
+                                                <h2 class="card-title" style="color:#1e75df;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                                                <p class="card-text mt-3">Duis sed blandit urna, ut gravida ex. Mauris varius lorem a ullamcorper laoreet. Nullam ex lorem, luctus vitae nisl vel, tincidunt faucibus metus.</p>
+                                                <p class="card-text"><small class="text-muted">Handcrafted like good code</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="slide-visible">
+                                <div class="card rounded-0 h-100">
+                                    <div class="row g-0 h-100">
+                                        <div class="col-md-3 col-xl-3">
+                                            <img src="img/testimony/lupita-nyongo.webp" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover" alt="...">
+                                            <img src="img/testimony/lupita-nyongo.webp" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover" alt="...">
+                                        </div>
+                                        <div class="col-md-9 col-xl-9 d-flex align-items-center p-2 p-md-3 p-xl-5">
+                                            <div class="card-body p-1 p-md-3 p-xl-9">
+                                                <p class="lead">Lupita</p>
+                                                <h2 class="card-title" style="color:#1e75df;">Fusce quam justo, rutrum in pretium nec, tempus ac leo</h2>
+                                                <p class="card-text mt-3">Morbi blandit aliquam nibh id mattis. Nam tincidunt elementum diam, vitae porta purus ullamcorper non. Etiam et magna id urna pellentesque rutrum. Donec ac quam aliquam, vehicula dolor non, volutpat mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                <p class="card-text"><small class="text-muted">Handcrafted like good code</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="slide-visible">
+                                <div class="card rounded-0 h-100">
+                                    <div class="row g-0 h-100">
+                                        <div class="col-md-3 col-xl-3">
+                                            <img src="img/testimony/lupita-nyongo.webp" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover" alt="...">
+                                            <img src="img/testimony/lupita-nyongo.webp" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover" alt="...">
+                                        </div>
+                                        <div class="col-md-9 col-xl-9 d-flex align-items-center p-2 p-md-3 p-xl-5">
+                                            <div class="card-body p-1 p-md-3 p-xl-9">
+                                                <p class="lead">Lupita</p>
+                                                <h2 class="card-title" style="color:#1e75df;">Fusce quam justo, rutrum in pretium nec, tempus ac leo</h2>
+                                                <p class="card-text mt-3">Morbi blandit aliquam nibh id mattis. Nam tincidunt elementum diam, vitae porta purus ullamcorper non. Etiam et magna id urna pellentesque rutrum. Donec ac quam aliquam, vehicula dolor non, volutpat mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                                <p class="card-text"><small class="text-muted">Handcrafted like good code</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    
+                        <button type="button" class="slider-nav" aria-label="Go left"></button>
+                        <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+                    
+                        <div class="slider-indicators">
+                            <button class="" aria-label="Go to slide"></button>
+                            <button aria-label="Go to slide" class="active"></button>
+                            <button aria-label="Go to slide" class=""></button>
+                        </div>
+                    </div>
+
+                </div><!-- row -->
+
+            </div><!-- container -->
+
+        </section>  
+
+        <section class="sec__instagram">
+            
+            <div class="container">
+                <div class="instagram__header wrapper__title mb-5">
+                    <h1>Section Instagram</h1>
+                    <div class="divider"></div>
+                </div>
+            </div><!-- container -->
+
+        </section>  
+
+
+    </main>       
+
+    <!-- footer section starts      -->
+    <footer class="footer__main">
+        
+        <section class="footer__widgets">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer__col footer__col--color col-sm-12 col-md-4 col-lg-4 my-3">
+                        <div class="widget">
+
+                            <h4>Contact</h4>
+                            <p><i class="bi bi-telephone"></i> Telephone: <a href="tel:+5581992570831" title="Clique aqui para ligar!"> (81) 99257-0831</a></p>
+                            <p><i class="bi bi-telephone"></i> Telephone: <a href="tel:+5581999272524" title="Clique aqui para ligar!"> (81) 99927-2524</a></p>
+                            <p><i class="bi bi-whatsapp"></i> WhatsApp: <a href="https://api.whatsapp.com/send?phone=5581992570831&amp;text=Ol%C3%A1%2C%20encontrei%20seu%20contato%20no%20site%20Pousada_Baobá%20" title="Clicl here to send a zap!"> (81) 99257-0831</a></p>
+                            <p><i class="bi bi-envelope"></i> email@gmail.com</p>
+
+                        </div>                        
+                    </div><!-- footer__col -->
+
+                    <div class="footer__col footer__col--color col-sm-12 col-md-4 col-lg-4 my-3">
+                        <div class="widget">
+
+                            <h4>Contact</h4>
+                            <p><i class="bi bi-telephone"></i> Telephone: <a href="tel:+5581992570831" title="Clique aqui para ligar!"> (81) 99257-0831</a></p>
+                            <p><i class="bi bi-telephone"></i> Telephone: <a href="tel:+5581999272524" title="Clique aqui para ligar!"> (81) 99927-2524</a></p>
+                            <p><i class="bi bi-whatsapp"></i> WhatsApp: <a href="https://api.whatsapp.com/send?phone=5581992570831&amp;text=Ol%C3%A1%2C%20encontrei%20seu%20contato%20no%20site%20Pousada_Baobá%20" title="Clicl here to send a zap!"> (81) 99257-0831</a></p>
+                            <p><i class="bi bi-envelope"></i> email@gmail.com</p>
+
+                        </div>                        
+                    </div><!-- footer__col -->
+
+                    <div class="footer__col footer__col--color col-sm-12 col-md-4 col-lg-4 my-3">
+                        <div class="widget">
+
+                            <h4>Contact</h4>
+                            <p><i class="bi bi-telephone"></i> Telephone: <a href="tel:+5581992570831" title="Clique aqui para ligar!"> (81) 99257-0831</a></p>
+                            <p><i class="bi bi-telephone"></i> Telephone: <a href="tel:+5581999272524" title="Clique aqui para ligar!"> (81) 99927-2524</a></p>
+                            <p><i class="bi bi-whatsapp"></i> WhatsApp: <a href="https://api.whatsapp.com/send?phone=5581992570831&amp;text=Ol%C3%A1%2C%20encontrei%20seu%20contato%20no%20site%20Pousada_Baobá%20" title="Clicl here to send a zap!"> (81) 99257-0831</a></p>
+                            <p><i class="bi bi-envelope"></i> email@gmail.com</p>
+
+                        </div>                        
+                    </div><!-- footer__col -->
+
+                </div><!-- row -->
+            </div><!-- container -->
+        </section>
+
+        <section class="footer__social">
+
+            <div class="container text-center footer__social--border pt-5">
+                <div class="row justify-content-md-center my-4">
+                    
+                    <div class="col-md-auto d-flex justify-content-center">   
+    
+                            <span class="footer__social--icone text-center">
+                                <a class="footer__social--link footer__social--btn" href="https://pt-br.facebook.com/" target="_blank">
+                                    <i class="bi-facebook"></i>
+                                </a>							
+                            </span>
+    
+                            <span class="footer__social--icone text-center">
+                                <a class="footer__social--link footer__social--btn" href="https://www.instagram.com/" target="_blank">
+                                    <i class="bi-instagram"></i>
+                                </a>							
+                            </span>
+    
+                            <span class="footer__social--icone text-center">
+                                <a class="footer__social--link footer__social--btn" href="https://www.youtube.com" target="_blank">
+                                    <i class="bi-youtube"></i>
+                                </a>							
+                            </span>
+    
+                            <span class="footer__social--icone text-center">
+                                <a class="footer__social--link footer__social--btn" href="https://api.whatsapp.com/" target="_blank">
+                                    <i class="bi-whatsapp"></i>
+                                </a>							
+                            </span>
+                       
+                    </div><!-- col-md-auto -->
+                    
+                </div>               
+            </div>
+
+        </section><!-- footer__social -->
+
+        <section class="footer__base footer__base--color footer__base--size">
+            <p> Copyright © POUSADA BAOBA LTDA - 12.361.522/0001-06 - Rua do Sol, Nº 147 - Carmo, Olinda - PE, 53120-010 </p>
+        </section><!-- footer__base -->
+
+        <section class="footer__ass footer__ass--color footer__ass--size py-1">
+            <p>Desenvolvido por: <a class="footer__ass--color" href="https://www.ijoin.com.br" target="_blank">Ijoin - Gerando Ideias, Gerindo Negócias</a></p>
+        </section><!-- footer__ass -->
+        
+    </footer> 
+    <!-- Footer section ends-->
+</div><!-- fully-page -->
+
+<!-- getbootstrap 5.3 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<!-- swiffy slider 1.6 JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+
+<script src="assets/menu/menu-func.js"></script>
+</body>
+</html>

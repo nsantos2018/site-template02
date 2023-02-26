@@ -1,8 +1,9 @@
 /* Select the hamburger */
-const hamburger = document.querySelector('.header__menu .hamburger');
+const hamburger = document.querySelector('.header__menu .hamburger__container .hamburger');
 
 /* Select the frame this navigate menu */
-const menu_mobile = document.querySelector('.header__menu .menu__nav');
+// const menu_mobile = document.querySelector('.header__menu .menu__nav');
+const menu_mobile = document.querySelector('.header__menu .menu');
 
 /* Selecting the link that has the sub-menu class maked LI as has-children  */
 const menu_children = document.querySelectorAll('.header__menu .menu__nav .menu__list > .menu-item-has-children a');
